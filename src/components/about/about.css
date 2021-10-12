@@ -1,0 +1,79 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.profile_photo img {
+  border-radius: 8px;
+}
+.profile_photo {
+  margin: auto;
+}
+.desc {
+  padding-right: 3rem;
+  text-align: justify;
+}
+h1 {
+  margin: 0 0 4px 0;
+  color: #000000;
+  font-size: 44px;
+}
+h2 {
+  margin: 0 0 16px 0;
+}
+p {
+}
+.sub-heading {
+  font-size: 16px;
+}
+.med-icon {
+  font-size: 1.5rem;
+}
+
+.med-icon a {
+  margin-right: 16px;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: aquamarine; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.techs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.techs li {
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .about {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .desc {
+    padding-right: 0;
+  }
+  h1 {
+    font-size: 30px;
+  }
+}

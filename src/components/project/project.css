@@ -1,0 +1,41 @@
+.title2 {
+  font-size: 36px;
+  margin: 3rem 0 2rem 0;
+}
+
+.projects {
+  padding: 2rem 0;
+  width: 100%;
+}
+.project-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* This is better for small screens, once min() is better supported */
+  /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+  gap: 1rem;
+}
+
+.garis {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 4px;
+}
+
+@media only screen and (max-width: 512px) {
+  .project-items {
+    grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  }
+}

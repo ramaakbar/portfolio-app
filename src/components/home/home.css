@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #f9fafb;
+  color: #444444;
+}
+
+.text-white {
+  color: #ffffff;
+}
+.text-dark {
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+a {
+  color: #444444;
+}
+p {
+  line-height: 1.6;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .home {
+    width: 80%;
+  }
+}

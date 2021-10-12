@@ -1,0 +1,19 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0 4rem 0;
+}
+.link a {
+  /* padding: 0 0.5rem 0 0; */
+  padding: 0.5rem;
+}
+
+.link a:hover {
+  border-bottom: 0.1rem solid #888888;
+}
