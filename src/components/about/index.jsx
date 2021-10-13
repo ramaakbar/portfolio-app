@@ -6,7 +6,7 @@ function About() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="desc">
         <h1 style={{ color: darkMode && "#888888" }} className="">
           Akbar Ramadhan Yusri
@@ -19,10 +19,10 @@ function About() {
           majoring on Database.
         </p>
         <p>
-          I'm currently focusing on frontend development stuff. But i also
-          intrested in other section aswell such as mobile development and data
-          analyst. Im improving my skills everyday to become a better developer.
-          On my free time, i spend time by playing games with my friends.
+          I'm currently focusing on web development. But i also intrested in
+          other section aswell such as mobile development and data analytic. I'm
+          improving my skills everyday to become a better developer. On my free
+          time, i spend time by playing games with my friends.
         </p>
         <p>These are technologies that i'm comfortable with:</p>
         <ul className="techs">
@@ -36,14 +36,20 @@ function About() {
           <li>Figma</li>
           <li>Spark.Ar</li>
         </ul>
-        <div className="med-icon">
-          <a href="https://github.com/ramaakbar">
+        <div className="med-icon ">
+          <a
+            href="https://github.com/ramaakbar"
+            style={{ color: darkMode && "#888888" }}
+          >
             <i class=" fab fa-github"></i>
           </a>
-          <a href="akbar.6b@gmail.com">
+          <a href="akbar.6b@gmail.com" style={{ color: darkMode && "#888888" }}>
             <i class=" far fa-envelope"></i>
           </a>
-          <a href="https://www.linkedin.com/in/akbar-ramadhan-yusri-48a422170/">
+          <a
+            href="https://www.linkedin.com/in/akbar-ramadhan-yusri-48a422170/"
+            style={{ color: darkMode && "#888888" }}
+          >
             <i class=" fab fa-linkedin"></i>
           </a>
         </div>

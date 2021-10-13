@@ -12,12 +12,23 @@ function ProjectCard({ project }) {
           <div className="project-title">{project.title}</div>
           <div className="project-link">
             {project.github && (
-              <a href={project.github} style={{ color: darkMode && "#888888" }}>
+              <a
+                href={project.github}
+                style={{
+                  color: darkMode && "#888888",
+                  marginRight: project.demo && "5px",
+                }}
+              >
                 <i class="fab fa-github"></i>
               </a>
             )}
             {project.demo && (
-              <a href={project.demo} style={{ color: darkMode && "#888888" }}>
+              <a
+                href={project.demo}
+                style={{
+                  color: darkMode && "#888888",
+                }}
+              >
                 <i class="fas fa-external-link-alt"></i>
               </a>
             )}
@@ -26,7 +37,16 @@ function ProjectCard({ project }) {
         <div className="project-desc">{project.about}</div>
         <div className="project-tag">
           {project.tags.map((tags) => {
-            return <span className="tag">{tags} </span>;
+            return (
+              <span
+                className="tag"
+                style={{
+                  color: darkMode && "#888888",
+                }}
+              >
+                {tags}{" "}
+              </span>
+            );
           })}
         </div>
       </div>

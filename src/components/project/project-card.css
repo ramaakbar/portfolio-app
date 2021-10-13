@@ -33,13 +33,12 @@
   margin-bottom: 1rem;
 }
 
-.project-link a:first-child {
-  margin-right: 0.5rem;
-}
-
 .project-title {
   font-size: 24px;
   font-weight: bold;
+}
+.project-desc {
+  margin-bottom: 2rem;
 }
 .project-tag {
   margin-top: 10px;
@@ -48,5 +47,10 @@
   flex-wrap: wrap;
 }
 .tag {
+  color: white;
   margin-right: 5px;
+  margin-top: 5px;
+  padding: 4px;
+  background-color: rgb(43, 43, 43);
+  border-radius: 5px;
 }
