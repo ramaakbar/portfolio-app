@@ -24,7 +24,7 @@ function About() {
           improving my skills everyday to become a better developer. On my free
           time, i spend time by playing games with my friends.
         </p>
-        <p>These are technologies that i'm comfortable with:</p>
+        <p>These are technologies that i'm comfortable using with:</p>
         <ul className="techs">
           <li>HTML & CSS</li>
           <li>Javascript</li>
@@ -36,6 +36,7 @@ function About() {
           <li>Figma</li>
           <li>Spark.Ar</li>
         </ul>
+        <p className="contact">Contact me at:</p>
         <div className="med-icon ">
           <a
             href="https://github.com/ramaakbar"
@@ -43,9 +44,9 @@ function About() {
           >
             <i class=" fab fa-github"></i>
           </a>
-          <a href="akbar.6b@gmail.com" style={{ color: darkMode && "#888888" }}>
+          {/* <a href="akbar.6b@gmail.com" style={{ color: darkMode && "#888888" }}>
             <i class=" far fa-envelope"></i>
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/akbar-ramadhan-yusri-48a422170/"
             style={{ color: darkMode && "#888888" }}

@@ -23,12 +23,16 @@ h2 {
   margin: 0 0 16px 0;
 }
 p {
+  line-height: 1.6rem;
 }
 .sub-heading {
   font-size: 16px;
 }
 .med-icon {
   font-size: 1.5rem;
+}
+.contact {
+  margin-bottom: 0;
 }
 
 .med-icon a {
@@ -59,21 +63,15 @@ ul li::before {
 @media only screen and (max-width: 1024px) {
 }
 @media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 32px;
-  }
-}
-
-@media only screen and (max-width: 512px) {
   .about {
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
   }
+  h1 {
+    font-size: 40px;
+  }
   .desc {
     padding-right: 0;
-  }
-  h1 {
-    font-size: 30px;
   }
 }

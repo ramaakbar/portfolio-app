@@ -1,0 +1,83 @@
+.experience {
+  margin-bottom: 4rem;
+}
+.parag {
+  line-height: 1.6rem;
+  font-size: 1rem;
+}
+.sub {
+  font-size: 1rem;
+}
+/* .inner {
+  width: 60%;
+} */
+.garis {
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  height: 4px;
+}
+
+.highlight {
+  color: aquamarine;
+}
+
+/* RC TABS START */
+
+.rc-tabs {
+  border: none !important;
+}
+.rc-tabs-tab {
+  padding: 5px;
+  text-transform: capitalize;
+  background: transparent;
+  background-color: transparent !important;
+}
+.rc-tabs-tab .rc-tabs-tab-btn {
+  font-weight: normal;
+}
+.rc-tabs-tab-btn {
+  padding-right: 1rem;
+}
+.rc-tabs-tab.rc-tabs-tab-active {
+  background: transparent;
+  color: aquamarine;
+}
+.rc-tabs-ink-bar {
+  background: aquamarine !important;
+}
+.rc-tabs-content-holder {
+  padding: 10px;
+}
+
+.rc-tabs-nav {
+  margin-right: 1rem;
+}
+
+.rc-tabs-nav-list {
+  background-color: transparent;
+}
+/* RC TABS STOP */
+/* @media only screen and (max-width: 1024px) {
+  .rc-tabs {
+    flex-direction: column;
+  }
+} */
+
+@media only screen and (max-width: 900px) {
+  .rc-tabs-nav {
+    margin-bottom: 1rem;
+  }
+}

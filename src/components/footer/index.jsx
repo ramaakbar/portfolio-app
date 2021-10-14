@@ -3,7 +3,7 @@ import "./footer.css";
 function Footer() {
   return (
     <div className="footer">
-      Made by <b>Akbar Ramadhan Yusri</b> | All rights reserved. ©{" "}
+      Made by <b>Akbar Ramadhan Yusri</b>
     </div>
   );
 }

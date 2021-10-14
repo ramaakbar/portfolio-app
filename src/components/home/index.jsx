@@ -5,6 +5,8 @@ import Header from "../header";
 import "./home.css";
 import FadeIn from "react-fade-in";
 import Project from "../project";
+import Experience from "../experience";
+
 function Home() {
   return (
     <div className="home">
@@ -13,6 +15,9 @@ function Home() {
         <FadeIn>
           <About />
         </FadeIn>
+      </div>
+      <div>
+        <Experience />
       </div>
       <div>
         <Project />

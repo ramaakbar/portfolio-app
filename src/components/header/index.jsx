@@ -11,10 +11,10 @@ function Header() {
       <nav>
         <Toggle />
         <div className="link">
-          <a style={{ color: darkMode && "#888888" }} href="#about">
+          <a style={{ color: darkMode && "#888888" }} href="#">
             About
           </a>
-          <a style={{ color: darkMode && "#888888" }} href="#">
+          <a style={{ color: darkMode && "#888888" }} href="#experience">
             Experience
           </a>
           <a style={{ color: darkMode && "#888888" }} href="#project">
