@@ -65,9 +65,20 @@
 .rc-tabs-nav {
   margin-right: 1rem;
 }
-
+.rc-tabs-nav-operations {
+  display: none !important;
+}
 .rc-tabs-nav-list {
   background-color: transparent;
+}
+.rc-tabs-nav-measure-ping-left::before,
+.rc-tabs-nav-wrap-ping-left::before {
+  border-left: 1px solid transparent !important;
+}
+
+.rc-tabs-nav-measure-ping-right::after,
+.rc-tabs-nav-wrap-ping-right::after {
+  border-right: 1px solid transparent !important;
 }
 /* RC TABS STOP */
 /* @media only screen and (max-width: 1024px) {
