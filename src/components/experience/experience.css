@@ -65,7 +65,9 @@
 .rc-tabs-nav {
   margin-right: 1rem;
 }
-
+.rc-tabs-nav-operations {
+  display: none;
+}
 .rc-tabs-nav-list {
   background-color: transparent;
 }
@@ -79,5 +81,8 @@
 @media only screen and (max-width: 900px) {
   .rc-tabs-nav {
     margin-bottom: 1rem;
+  }
+  .rc-tabs-tab-btn {
+    padding-right: 0;
   }
 }

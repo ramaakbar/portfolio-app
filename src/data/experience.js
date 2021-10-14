@@ -18,4 +18,24 @@ export const ExperienceData = [
       "the quick brown fox jumps over thel azy dpg",
     ],
   },
+  {
+    id: 3,
+    company: "HIMTI",
+    title: "Web Development",
+    date: "Jan 2020 - Present",
+    desc: [
+      "Made webs for HIMTI events",
+      "the quick brown fox jumps over thel azy dpg",
+    ],
+  },
+  {
+    id: 4,
+    company: "HIMTI",
+    title: "Web Development",
+    date: "Jan 2020 - Present",
+    desc: [
+      "Made webs for HIMTI events",
+      "the quick brown fox jumps over thel azy dpg",
+    ],
+  },
 ];
