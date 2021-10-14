@@ -65,9 +65,7 @@
 .rc-tabs-nav {
   margin-right: 1rem;
 }
-.rc-tabs-nav-operations {
-  display: none;
-}
+
 .rc-tabs-nav-list {
   background-color: transparent;
 }
