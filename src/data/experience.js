@@ -13,9 +13,6 @@ export const ExperienceData = [
     company: "HIMTI",
     title: "Web Development",
     date: "Jan 2020 - Present",
-    desc: [
-      "Made websites for HIMTI events",
-      "the quick brown fox jumps over thel azy dpg",
-    ],
+    desc: ["Made websites for HIMTI events"],
   },
 ];
