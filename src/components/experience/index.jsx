@@ -19,6 +19,7 @@ function Experience() {
     console.log("top");
     pos = "top";
   }
+
   return (
     <div className="experience" id="experience">
       <div className="garis"></div>

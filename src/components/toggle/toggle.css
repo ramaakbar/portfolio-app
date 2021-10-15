@@ -1,5 +1,7 @@
 .toggle {
-  display: flex;
+  display: inline;
   align-items: center;
   cursor: pointer;
+  padding-left: 0.5rem;
+  border-left: 1px solid #888888;
 }

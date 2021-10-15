@@ -24,6 +24,22 @@ p {
   line-height: 1.6rem;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 40px;
+  background: #444444;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+
+.back-to-top:hover {
+  background: #525252;
+}
+
 @media only screen and (max-width: 1200px) {
   .home {
     width: 80%;

@@ -9,17 +9,20 @@ function Header() {
   return (
     <div className="header">
       <nav>
-        <Toggle />
+        <a href="#" style={{ color: darkMode && "#888888" }}>
+          <b>@ramaakbar</b>
+        </a>
         <div className="link">
-          <a style={{ color: darkMode && "#888888" }} href="#">
+          {/* <a style={{ color: darkMode && "#888888" }} href="#">
             About
-          </a>
+          </a> */}
           <a style={{ color: darkMode && "#888888" }} href="#experience">
             Experience
           </a>
           <a style={{ color: darkMode && "#888888" }} href="#project">
             Project
           </a>
+          <Toggle />
         </div>
       </nav>
     </div>

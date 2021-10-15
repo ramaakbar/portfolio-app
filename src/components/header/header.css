@@ -12,8 +12,19 @@ nav {
 .link a {
   /* padding: 0 0.5rem 0 0; */
   padding: 0.5rem;
+  font-weight: bold;
 }
 
 .link a:hover {
   border-bottom: 0.1rem solid #888888;
+}
+
+@media only screen and (max-width: 320px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .link {
+    padding-top: 0.5rem;
+  }
 }
