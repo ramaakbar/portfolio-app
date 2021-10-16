@@ -12,7 +12,7 @@ function Project() {
   return (
     <div className="projects" id="project">
       <div className="garis"></div>
-      <h1 className="title2" style={{ color: darkMode && "#888888" }}>
+      <h1 className="title2" style={{ color: darkMode && "#ffffff" }}>
         Projects
       </h1>
       <div className="project-items">

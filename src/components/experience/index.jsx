@@ -10,6 +10,7 @@ function Experience() {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   const data = ExperienceData;
+
   function callback(e) {
     console.log(e);
   }
@@ -23,7 +24,7 @@ function Experience() {
   return (
     <div className="experience" id="experience">
       <div className="garis"></div>
-      <h1 className="title2" style={{ color: darkMode && "#888888" }}>
+      <h1 className="title2" style={{ color: darkMode && "#ffffff" }}>
         Experience
       </h1>
       <Tabs tabPosition={pos} defaultActiveKey="1" onChange={callback}>

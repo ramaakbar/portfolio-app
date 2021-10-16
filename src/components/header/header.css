@@ -13,10 +13,11 @@ nav {
   /* padding: 0 0.5rem 0 0; */
   padding: 0.5rem;
   font-weight: bold;
+  transition: color 0.2s ease;
 }
 
 .link a:hover {
-  border-bottom: 0.1rem solid #888888;
+  transition: color 0.2s ease;
 }
 
 @media only screen and (max-width: 320px) {

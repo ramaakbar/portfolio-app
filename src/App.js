@@ -9,7 +9,7 @@ function App() {
     <div
       style={{
         backgroundColor: darkMode ? "#111111" : "#f9fafb",
-        color: darkMode && "#888888",
+        color: darkMode && "#ffffff",
       }}
     >
       <Home />
