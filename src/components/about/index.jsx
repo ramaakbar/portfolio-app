@@ -29,7 +29,7 @@ function About() {
         </h2>
         <p>
           I am currently studying Computer Science at Bina Nusantara University,
-          majoring on Database.
+          majoring on Database Technology.
         </p>
         <p>
           I'm currently focusing on web development. But i also intrested in
@@ -71,7 +71,11 @@ function About() {
         </div>
       </div>
       <div className="profile_photo">
-        <img src="pasramawithoutbg.png" width="200px" alt=""></img>
+        <img
+          src="pasramawithoutbg.png"
+          width="200px"
+          alt="Rama Akbar's Photo"
+        ></img>
       </div>
     </div>
   );

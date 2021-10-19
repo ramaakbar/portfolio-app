@@ -2,7 +2,8 @@ export const ProjectData = [
   {
     id: 1,
     title: "Frawsalla",
-    about: "Made A simple website for HCI lab project as a group",
+    about:
+      "A simple website for HCI lab project. Made by me, Richie and Amadeus Rafael",
     tags: ["HTML & CSS", "Figma"],
     demo: "https://ramaakbar.github.io/Frawlsalla/",
     github: "https://github.com/ramaakbar/Frawlsalla",
@@ -19,6 +20,16 @@ export const ProjectData = [
   },
   {
     id: 3,
+    title: "Recipe App",
+    about:
+      "A food recipe app ui for software engineering project. Made by me, Richie, and Amadeus Rafael",
+    tags: ["Figma"],
+    demo: "https://www.figma.com/proto/kbiaztQrfXYG7nCd65SlRi/SE-app-ui?node-id=19%3A4&scaling=scale-down&page-id=0%3A1&starting-point-node-id=17%3A59&show-proto-sidebar=1",
+    github: "",
+    image: "favicon.ico",
+  },
+  {
+    id: 4,
     title: "SpaceWarp",
     about: "3D IG filter for moonchicken with image tracking using Spark AR",
     tags: ["Spark AR"],
@@ -27,7 +38,7 @@ export const ProjectData = [
     image: "favicon.ico",
   },
   {
-    id: 4,
+    id: 5,
     title: "City Poop",
     about: "3D IG filter with image tracking using Spark AR",
     tags: ["Spark AR"],
